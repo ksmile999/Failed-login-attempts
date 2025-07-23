@@ -1,0 +1,9 @@
+def login_check(login_attempts, current_user):
+    counter = 10
+    for user in login_attempts:
+        if user == current_user:
+            counter += 1
+    if counter >= 5:
+        return "You have tried to login five or more times. Your account has been locked."
+    else:
+        return "You can login!"
