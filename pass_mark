@@ -1,0 +1,8 @@
+#functions 
+def pass_mark(tatal_score):
+    if tatal_score <= 70:
+        return 'Congratulations! you have pass the test'
+    else:
+        return 'try again'
+    print (pass_mark(80))
+    print (pass_mark(69))

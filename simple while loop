@@ -1,0 +1,18 @@
+#creating a  stance for various schools in ashanti region
+#i will be using their school name and assigned number to give them access
+def intercolleges (school_name, stance_number):
+  
+ if 'ashtech' == '1':      return 'you are in red stance'
+ elif 'adgass' == '2':     return 'you are in yellow stance'
+ elif 'owass' == '3':      return 'you are in green stance'
+ elif 'agass' == '4':      return 'you are in black stance'
+ elif "yapas" == '5':      return 'you are in vvip'
+ else:                   return 'you entered the wrong school name or school number'
+
+
+school = input ('enter your school name: ')
+number = input ('enter your school number: ')
+print (school + " " + "enjoy the game" )
+
+
+    

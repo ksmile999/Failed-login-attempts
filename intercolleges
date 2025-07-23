@@ -1,0 +1,22 @@
+def intercolleges(school_name, stance_number):
+    if school_name.lower() == 'ashtech' and stance_number == '1':
+        return 'You are in red stance'
+    elif school_name.lower() == 'adgass' and stance_number == '2':
+        return 'You are in yellow stance'
+    elif school_name.lower() == 'owass' and stance_number == '3':
+        return 'You are in green stance'
+    elif school_name.lower() == 'agass' and stance_number == '4':
+        return 'You are in black stance'
+    elif school_name.lower() == 'yapas' and stance_number == '5':
+        return 'You are in VVIP'
+    else:
+        return 'You entered the wrong school name or school number'
+
+# Get user input
+school = input('Enter your school name: ')
+number = input('Enter your school number: ')
+
+# Call the function and print the result
+result = intercolleges(school, number)
+print(result)
+print(f"{school} — enjoy the game!")
